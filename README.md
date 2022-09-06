@@ -12,7 +12,7 @@
 ## 安装
 
 ```shell
-$ composer require flex/express -vvv
+$ composer require duan617/express
 ```
 ## 配置
 

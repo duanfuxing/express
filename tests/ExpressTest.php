@@ -1,20 +1,12 @@
 <?php
 
-/*
- * This file is part of the flex/express.
- *
- * (c) Flex<2345@mail.com>
- *
- * This source file is subject to the MIT license that is bundled
- * with this source code in the file LICENSE.
- */
 
-namespace Flex\Express\Tests;
+namespace duan617\Express\Tests;
 
-use Flex\Express\Exceptions\InvalidArgumentException;
-use Flex\Express\Express;
-use Flex\Express\ExpressBird;
-use Flex\Express\Express100;
+use duan617\Express\Exceptions\InvalidArgumentException;
+use duan617\Express\Express;
+use duan617\Express\ExpressBird;
+use duan617\Express\Express100;
 use PHPUnit\Framework\TestCase;
 
 class ExpressTest extends TestCase
