@@ -26,7 +26,7 @@
                 "duan617\\Express\\ExpressServiceProvider"
             ],
             "aliases": {
-                "DouDian": "duan617\\Express\\ExpressFacade"
+                "Express": "duan617\\Express\\ExpressFacade"
             }
         }
     }

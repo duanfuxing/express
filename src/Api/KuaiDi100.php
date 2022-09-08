@@ -1,6 +1,6 @@
 <?php
 
-namespace duan617\express\Api;
+namespace duan617\Express\Api;
 
 use Illuminate\Http\Client\RequestException;
 use Psr\SimpleCache\InvalidArgumentException;
