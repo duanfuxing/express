@@ -9,33 +9,6 @@ class KuaiDi100 extends BaseRequest
 {
 
     /**
-     * 获取运输公司编码
-     * @param null $type
-     * @return array|\Illuminate\Config\Repository|\Illuminate\Foundation\Application|mixed
-     */
-    public function getCode($type = null)
-    {
-        switch ($type) {
-            case 'domestic':
-                return config('domestic');
-                break;
-            case 'international':
-                return config('international');
-                break;
-            case 'internationalEms':
-                return config('internationalEms');
-                break;
-            default:
-                return array_merge_recursive(
-                    config('domestic'),
-                    config('international'),
-                    config('internationalEms')
-                );
-                break;
-        }
-    }
-
-    /**
      * 实时快递单号查询
      * @param array $params
      * @return array
