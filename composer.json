@@ -23,8 +23,11 @@
     "extra": {
         "laravel": {
             "providers": [
-                "duan617\\Express\\ServiceProvider"
-            ]
+                "duan617\\Express\\ExpressServiceProvider"
+            ],
+            "aliases": {
+                "DouDian": "duan617\\Express\\ExpressFacade"
+            }
         }
     }
 }
